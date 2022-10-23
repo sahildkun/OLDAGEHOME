@@ -1,22 +1,43 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './Navbar';
-import Carousel from './Carousel';
+// import Carousel from './Carousel';
 import Hero from './Hero';
-import Footer from './Footer';
-import Footer2 from './Footer2';
-import Founder from './Founder';
+// import Footer from './Footer';
+// import Footer2 from './Footer2';
+// import Founder from './Founder';
+import { BrowserRouter , Routes, Route } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import About from './About';
 
 function App() {
   return (
     <div className="">
-     <Navbar/>
+     
 
-     <Carousel/>
-     <Hero/>
-     <Founder/>
+<BrowserRouter>
+       
+       <Routes>
+       
+        <Route path='/' element={<Hero/>}/>
+        
 
-     <Footer2/>
+        <Route path='/about' element={<About/>}/>
+
+
+
+
+       </Routes>
+     
+     
+     </BrowserRouter>
+     
+    
+    
+
+    
+     
+    
     </div>
   );
 }

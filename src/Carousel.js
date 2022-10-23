@@ -5,6 +5,7 @@ import './App.css'
 function Carousel() {
   return (
     <>
+    <div className=''>
     <main>
       <div>
         <title>Tailwind CSS Carousel</title>
@@ -49,6 +50,7 @@ function Carousel() {
         </div>
       </div>
     </main>
+    </div>
     
     </>
   )
