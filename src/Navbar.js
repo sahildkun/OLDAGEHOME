@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 function Navbar() {
   return (
@@ -9,15 +11,19 @@ function Navbar() {
             <div class="flex items-center justify-between">
                {/* logo */}
              <div>
-                  <img src="" alt="logo-img" />
+              <Link to='/'>
+              <img src="" alt="logo-img" />
+              </Link>
+                  
              </div>
              {/* menu */}
             <div class="hidden space-x-6 md:flex">
-                <div href="#" class="hover:text-darkGrayishBlue">Pricing</div>
-                <div href="#" class="hover:text-darkGrayishBlue">Product</div>
-                <div href="#" class="hover:text-darkGrayishBlue">About Us</div>
-                <div href="#" class="hover:text-darkGrayishBlue">Careers</div>
-                <div href="#" class="hover:text-darkGrayishBlue">Community</div>
+                <Link to='/about'>ABOUT US</Link>
+                <Link to='/about'>DONATE</Link>
+                <Link to='/about'>CONTACT US</Link>
+                
+              
+               
             </div>
 
             </div>

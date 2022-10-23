@@ -6,6 +6,8 @@ import './App.css'
 function Carousel() {
   return (
     <>
+    <div className=''>
+    <main>
       <div>
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet" /> 
         <style dangerouslySetInnerHTML={{__html: "\n\t\t\t.carousel-open:checked + .carousel-item {\n\t\t\t\tposition: static;\n\t\t\t\topacity: 100;\n\t\t\t}\n\t\t\t.carousel-item {\n\t\t\t\t-webkit-transition: opacity 0.6s ease-out;\n\t\t\t\ttransition: opacity 0.6s ease-out;\n\t\t\t}\n\t\t\t#carousel-1:checked ~ .control-1,\n\t\t\t#carousel-2:checked ~ .control-2,\n\t\t\t#carousel-3:checked ~ .control-3 {\n\t\t\t\tdisplay: block;\n\t\t\t}\n\t\t\t.carousel-indicators {\n\t\t\t\tlist-style: none;\n\t\t\t\tmargin: 0;\n\t\t\t\tpadding: 0;\n\t\t\t\tposition: absolute;\n\t\t\t\tbottom: 2%;\n\t\t\t\tleft: 0;\n\t\t\t\tright: 0;\n\t\t\t\ttext-align: center;\n\t\t\t\tz-index: 10;\n\t\t\t}\n\t\t\t#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,\n\t\t\t#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,\n\t\t\t#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {\n\t\t\t\tcolor: #2b6cb0;  /*Set to match the Tailwind colour you want the active one to be */\n\t\t\t}\n\t\t" }} />
@@ -47,6 +49,8 @@ function Carousel() {
           </div>
         </div>
       </div>
+    </main>
+    </div>
     
     </>
   )
