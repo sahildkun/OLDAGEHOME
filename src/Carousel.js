@@ -18,8 +18,8 @@ function Carousel() {
             <div className="carousel-item absolute opacity-0" style={{height: '72vh'}}>
             <img src="image2.jpg" class="block w-full h-full" alt="..."/>
             </div>
-            <label htmlFor="carousel-3" className="prev control-1 w-14 h-14 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-900 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-            <label htmlFor="carousel-2" className="next control-1 w-14 h-14 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-900 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+            <label htmlFor="carousel-3" className="prev control-1 w-14 h-14 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-900 leading-tight text-center  inset-y-0 left-0 my-auto">‹</label>
+            <label htmlFor="carousel-2" className="next control-1 w-14 h-14 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-white hover:text-white rounded-full  hover:bg-blue-900 leading-tight text-center  inset-y-0 right-0 my-auto">›</label>
             {/*Slide 2*/}
             <input className="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden />
             <div className="carousel-item absolute opacity-0" style={{height: '72vh'}}>

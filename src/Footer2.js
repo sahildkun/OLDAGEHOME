@@ -65,7 +65,9 @@ function Footer2() {
     <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-3 gap-60">
      
       <div class="">
-        <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+
+        
+        {/* <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
           Products
         </h6>
         <p class="mb-4">
@@ -79,20 +81,20 @@ function Footer2() {
         </p>
         <p>
           <a href="#!" class="text-gray-600">Laravel</a>
-        </p>
+        </p> */}
       </div>
       <div class="">
         <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
           Useful links
         </h6>
         <p class="mb-4">
-          <a href="#!" class="text-gray-600">Pricing</a>
+          <a href="#!" class="text-gray-600">Home </a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-gray-600">Settings</a>
+          <a href="#!" class="text-gray-600">About Us</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-gray-600">Orders</a>
+          <a href="#!" class="text-gray-600">Contact Us </a>
         </p>
         <p>
           <a href="#!" class="text-gray-600">Help</a>
@@ -134,7 +136,7 @@ function Footer2() {
               d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
             </path>
           </svg>
-          + 01 234 567 88
+          <a href="tel:+919556100564">9556100564</a>
         </p>
         <p class="flex items-center justify-center md:justify-start">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="print"
