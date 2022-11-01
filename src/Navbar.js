@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <div  class='bg-teal-600'>
+    <div id ='grad'>
        {/* NAVBAR */}
-       <nav class="relative container mx-auto p-7">
+       <nav class="relative container mx-auto p-5">
           {/* FLEX CONTAINER */}
             <div class="flex items-center justify-between">
                {/* logo */}
@@ -17,17 +17,23 @@ function Navbar() {
                   
              </div>
              {/* menu */}
-            <button class="hidden space-x-6 md:flex text-white font-bold text-xl">
-                <Link to='/about'>HOME</Link>
-                <Link to='/about'>ABOUT US</Link>
-                <Link to='/about'>INITIATIVES</Link>
-                <Link to='/about'>GALLERY</Link>
-                <Link to='/about'>GET INVOLVED</Link>
-                <Link to='/about'>CONTACT US</Link>
+            <div class="hidden space-x-3 md:flex text-white font-bold text-xl">
+                <button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
+                 hover:from-[#8b98c9] hover:to-[#8b98c9]'><Link to='/about'>HOME</Link></button>
+                <button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
+                 hover:from-[#8b98c9] hover:to-[#8b98c9]'><Link to='/about'>ABOUT US</Link></button>
+                <button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
+                 hover:from-[#8b98c9] hover:to-[#8b98c9]'><Link to='/about'>INITIATIVES</Link></button>
+                <button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
+                 hover:from-[#8b98c9] hover:to-[#8b98c9]'><Link to='/about'>GALLERY</Link></button>
+                <button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
+                 hover:from-[#8b98c9] hover:to-[#8b98c9]'><Link to='/about'>GET INVOLVED</Link></button>
+                <button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
+                 hover:from-[#8b98c9] hover:to-[#8b98c9]'><Link to='/about'>CONTACT US</Link></button>
                 
               
                
-            </button>
+            </div>
 
             </div>
        </nav>

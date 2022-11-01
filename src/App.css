@@ -1,3 +1,6 @@
+#grad {
+	background-image: radial-gradient(#6074C4,#0E1F61);
+  }
 .carousel-open:checked + .carousel-item {
 				position: static;
 				opacity: 100;
