@@ -25,11 +25,11 @@ function Services() {
            <div className='flex flex-auto gap-10   mx-auto md:gap-x-0 md:space-x-[26rem]'>
            <div>
                 <img src={health} alt="img"  className='h-20 md:h-32'/>
-                <p className='text-center text-xs font-semibold tmd:ext-lg  my-5 text-slate-400'>HEALTHCARE</p>
+                <p className='text-center text-xs font-semibold md:text-lg  my-5 text-slate-400'>HEALTHCARE</p>
              </div>
              <div>
                 <img src={recreation} alt="img"  className='h-20 md:h-32'/>
-                <p className='text-center text-xs font-semibold tmd:ext-lg  my-5 text-slate-400'>RECREATION</p>
+                <p className='text-center text-xs font-semibold md:text-lg  my-5 text-slate-400'>RECREATION</p>
              </div>
              <div>
                 <img src={yoga} alt="img" className='h-20 md:h-32'/>
