@@ -3,6 +3,7 @@ import Carousel from './Carousel'
 import Footer2 from './Footer2'
 import Founder from './Founder'
 import Navbar from './Navbar'
+import Services from './Services'
 
 function Hero() {
   return (
@@ -22,7 +23,7 @@ function Hero() {
         
        </div>
     </section>
-
+    <Services/>
     <Founder/>
     <Footer2/>
 
