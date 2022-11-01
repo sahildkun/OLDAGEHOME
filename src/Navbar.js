@@ -10,14 +10,14 @@ function Navbar() {
           {/* FLEX CONTAINER */}
             <div class="flex items-center justify-between">
                {/* logo */}
-             <div>
+             <div className='h-11 w-80'>
               <Link to='/'>
-              <img src="" alt="logo-img" />
+              <img src="seva.svg" alt="logo-img" />
               </Link>
                   
              </div>
              {/* menu */}
-            <div class="hidden space-x-3 md:flex text-white font-bold text-xl">
+            <div class="hidden space-x-3 md:flex text-white font-medium font-serif text-xl">
                 <button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
                  hover:from-[#8b98c9] hover:to-[#8b98c9]'><Link to='/about'>HOME</Link></button>
                 <button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
