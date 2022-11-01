@@ -61,8 +61,8 @@ function Footer2() {
       </a>
     </div>
   </div> */}
-  <div class="mx-6 py-10 text-center md:text-left">
-    <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-3 gap-60">
+  <div class="mx-6 py-20  md:py-10 text-center md:text-left">
+    <div class="   md:grid grid-1 md:grid-cols-2 lg:grid-cols-3 gap-60">
      
       <div class="">
 
@@ -84,7 +84,7 @@ function Footer2() {
         </p> */}
       </div>
       <div class="">
-        <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+        <h6 class="uppercase font-semibold mb-4 md:mb-4 flex justify-center md:justify-start">
           Useful links
         </h6>
         <p class="mb-4">
@@ -101,7 +101,7 @@ function Footer2() {
         </p>
       </div>
       <div class="">
-        <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+        <h6 class="uppercase font-semibold mt-20 md:mt-0 mb-4 flex justify-center md:justify-start">
           Contact
         </h6>
         <p class="flex items-center justify-center text-md md:justify-start mb-4">
