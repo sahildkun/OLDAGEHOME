@@ -4,9 +4,9 @@ import recreation from './images/recreation.png'
 import yoga from './images/yoga.png'
 function Services() {
   return (
-    <div>
-        <div className='text-xl text-center md:text-3xl font-bold'>SERVICES WE PROVIDE</div>
-        <div className='flex flex-col mt-28 space-y-10'>
+    <div >
+        <div className='text-xl text-center mt-20 md:mt-44 md:text-3xl  text-blue-900 font-serif'>SERVICES WE PROVIDE</div>
+        <div className='flex flex-col mt-16 md:mt-28 space-y-10 '>
            <div className='flex flex-auto gap-10   mx-auto md:gap-x-0 md:space-x-[26rem] '>
              <div>
                 <img src={health} alt="img" className='h-20 md:h-32' />
