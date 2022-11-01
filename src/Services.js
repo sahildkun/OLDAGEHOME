@@ -1,5 +1,7 @@
 import React from 'react'
 import health from './images/health care.png'
+import recreation from './images/recreation.png'
+import yoga from './images/yoga.png'
 function Services() {
   return (
     <div>
@@ -8,30 +10,30 @@ function Services() {
            <div className='flex flex-auto gap-10   mx-auto md:gap-x-0 md:space-x-[26rem] '>
              <div>
                 <img src={health} alt="img" className='h-20 md:h-32' />
-                <p className='text-center font-semibold md:text-lg  my-5 text-slate-400'>SERVICE 1</p>
+                <p className='text-center font-semibold md:text-lg  my-5 text-slate-400'>HEALTHCARE</p>
              </div>
              <div>
-                <img src={health} alt="img" className='h-20 md:h-32'/>
-                <p className='text-center font-semibold md:text-lg  my-5 text-slate-400'>SERVICE 1</p>
+                <img src={recreation} alt="img" className='h-20 md:h-32'/>
+                <p className='text-center font-semibold md:text-lg  my-5 text-slate-400'>RECREATION</p>
              </div>
              <div>
-                <img src={health} alt="img" className='h-20 md:h-32'/>
-                <p className='text-center font-semibold md:text-lg  my-5 text-slate-400'>SERVICE 1</p>
+                <img src={yoga} alt="img" className='h-20 md:h-32'/>
+                <p className='text-center font-semibold md:text-lg  my-5 text-slate-400'>YOGA</p>
              </div>
            </div>
 
            <div className='flex flex-auto gap-10   mx-auto md:gap-x-0 md:space-x-[26rem]'>
            <div>
                 <img src={health} alt="img"  className='h-20 md:h-32'/>
-                <p className='text-center font-semibold tmd:ext-lg  my-5 text-slate-400'>SERVICE 1</p>
+                <p className='text-center font-semibold tmd:ext-lg  my-5 text-slate-400'>HEALTHCARE</p>
              </div>
              <div>
-                <img src={health} alt="img"  className='h-20 md:h-32'/>
-                <p className='text-center font-semibold tmd:ext-lg  my-5 text-slate-400'>SERVICE 1</p>
+                <img src={recreation} alt="img"  className='h-20 md:h-32'/>
+                <p className='text-center font-semibold tmd:ext-lg  my-5 text-slate-400'>RECREATION</p>
              </div>
              <div>
-                <img src={health} alt="img" className='h-20 md:h-32'/>
-                <p className='text-center font-semibold md:text-lg  my-5 text-slate-400'>SERVICE 1</p>
+                <img src={yoga} alt="img" className='h-20 md:h-32'/>
+                <p className='text-center font-semibold md:text-lg  my-5 text-slate-400'>YOGA</p>
              </div>
            </div>
         </div>
