@@ -10,7 +10,7 @@ function Navbar() {
           {/* FLEX CONTAINER */}
             <div class="flex items-center justify-between">
                {/* logo */}
-             <div className='h-11 w-80'>
+             <div className='py-1 w-80 mx-auto lg:mx-5'>
               <Link to='/'>
               <img src="seva.svg" alt="logo-img" />
               </Link>
