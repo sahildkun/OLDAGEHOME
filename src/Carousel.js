@@ -15,7 +15,7 @@ function Carousel() {
           <div className="carousel-inner relative overflow-hidden w-full">
             {/*Slide 1*/}
             <input className="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden defaultChecked="checked" />
-            <div className="carousel-item absolute opacity-0" style={{height: '  md:75vh'}}>
+            <div className="carousel-item absolute opacity-0" style={{height: 'md:75vh'}}>
             <img src="image2.jpg" class="block w-full h-full" alt="..."/>
             </div>
             <label htmlFor="carousel-3" className="prev control-1 w-14 h-14 ml-2 md:ml-10 absolute cursor-pointer hidden text-9xl font-bold text-white hover:text-white rounded-full   leading-tight text-center  inset-y-0 left-0 my-36">‹</label>
