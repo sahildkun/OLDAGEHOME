@@ -18,8 +18,8 @@ function Navbar() {
              </div>
              {/* menu */}
             <div class="hidden space-x-3 md:flex text-white font-medium font-serif text-xl">
-                <button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
-                 hover:from-[#8b98c9] hover:to-[#8b98c9]'><Link to='/about'>HOME</Link></button>
+                {/* <button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
+                 hover:from-[#8b98c9] hover:to-[#8b98c9]'><Link to='/about'>HOME</Link></button> */}
                 <button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
                  hover:from-[#8b98c9] hover:to-[#8b98c9]'><Link to='/about'>ABOUT US</Link></button>
                 <button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
@@ -29,7 +29,7 @@ function Navbar() {
                 <button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
                  hover:from-[#8b98c9] hover:to-[#8b98c9]'><Link to='/about'>GET INVOLVED</Link></button>
                 <button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
-                 hover:from-[#8b98c9] hover:to-[#8b98c9]'><Link to='/about'>CONTACT US</Link></button>
+                 hover:from-[#8b98c9] hover:to-[#8b98c9]'><Link to='/contact'>CONTACT US</Link></button>
                 
               
                

@@ -9,6 +9,7 @@ import Hero from './Hero';
 import { BrowserRouter , Routes, Route } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 import About from './About';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -16,14 +17,15 @@ function App() {
      
 
 <BrowserRouter>
-       
+       <Navbar/>
        <Routes>
        
         <Route path='/' element={<Hero/>}/>
         
 
         <Route path='/about' element={<About/>}/>
-
+        <Route path='/contact' element={<Contact/>}/>
+        
 
 
 

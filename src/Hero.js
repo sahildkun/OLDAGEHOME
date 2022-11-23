@@ -9,7 +9,7 @@ import Services from './Services'
 function Hero() {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
      <Banner/>
 
     <section id='hero'  className='mx-auto'>
