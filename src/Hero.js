@@ -1,4 +1,5 @@
 import React from 'react'
+import Banner from './Banner'
 import Carousel from './Carousel'
 import Footer2 from './Footer2'
 import Founder from './Founder'
@@ -9,7 +10,7 @@ function Hero() {
   return (
     <div>
       <Navbar/>
-      <Carousel/>
+     <Banner/>
 
     <section id='hero'  className='mx-auto'>
        
