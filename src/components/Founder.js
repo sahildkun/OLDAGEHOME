@@ -1,5 +1,5 @@
 import React from 'react'
-import founder from './images/founder.jpg'
+import founder from '../images/founder.jpg'
 function Founder() {
   return (
     <div>
@@ -18,7 +18,7 @@ function Founder() {
             <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
             <p class="text-base text-gray-400">
               <h1 className='font-serif text-xl text-black'>KAMINI DAS</h1>
-              <h1>CEO & MD</h1>
+              <h1>MD & CEO</h1>
               </p>
           </div>
         </div>

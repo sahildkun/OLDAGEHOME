@@ -1,6 +1,6 @@
 
 import './App.css';
-import Navbar from './Navbar';
+import Navbar from './components/Navbar';
 // import Carousel from './Carousel';
 import Hero from './Hero';
 // import Footer from './Footer';

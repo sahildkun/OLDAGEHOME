@@ -1,9 +1,9 @@
 import React from 'react'
-import Banner from './Banner'
+import Banner from './components/Banner'
 import Carousel from './Carousel'
-import Footer2 from './Footer2'
-import Founder from './Founder'
-import Navbar from './Navbar'
+import Footer2 from './components/Footer2'
+import Founder from './components/Founder'
+import Navbar from './components/Navbar'
 import Services from './Services'
 
 function Hero() {
