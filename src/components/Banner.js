@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 function Banner() {
   return (
-    <div>
+    <div className='relative'>
 
        <Carousel
        autoPlay
