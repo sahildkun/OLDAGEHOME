@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Cormorant+Garamond:wght@700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Cormorant+Garamond:wght@700&family=Pacifico&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Source+Sans+Pro:wght@500&display=swap');
 #grad {
 	background-image: radial-gradient(#6074C4,#0E1F61);
   }
@@ -10,4 +13,15 @@ background-image:url("https://scontent.fbbi5-1.fna.fbcdn.net/v/t1.18169-9/140676
 background-repeat: no-repeat;
 background-size: cover;
 
+}
+#about {
+  font-family: 'Cookie', cursive;
+}
+#title {
+  font-family: 'Cormorant Garamond', serif;
+
+}
+
+#text {
+  font-family: 'Source Sans Pro', sans-serif;
 }
