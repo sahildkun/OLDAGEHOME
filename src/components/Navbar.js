@@ -15,9 +15,9 @@ function Navbar() {
        {/* NAVBAR */}
        <nav class=" p-3 ">
           {/* FLEX CONTAINER */}
-            <div class={`flex ${isOpen ? 'flex-col' : 'flex-row'} items-center md: justify-between`}>
+            <div class={`flex ${isOpen ? 'flex-col' : 'flex-row'}    md:justify-between`}>
                {/* logo */}
-             <div className='py-0 mx-auto md:mx-0 flex items-center space-x-7'>
+             <div className='py-0  md:mx-0 flex flex-auto items-center justify-between md:space-x-7'>
               <Link to='/'>
               <img src="" alt="logo-img" className=''/>
               </Link>
