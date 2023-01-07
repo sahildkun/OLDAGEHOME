@@ -13,13 +13,13 @@ function Navbar() {
   return (
     <div id ='grad'>
        {/* NAVBAR */}
-       <nav class="relative container mx-auto p-3 ">
+       <nav class=" p-3 ">
           {/* FLEX CONTAINER */}
             <div class={`flex ${isOpen ? 'flex-col' : 'flex-row'} items-center md: justify-between`}>
                {/* logo */}
              <div className='py-0 mx-auto md:mx-0 flex items-center space-x-7'>
               <Link to='/'>
-              <img src="" alt="logo-img" className=' w-72 md:w-80'/>
+              <img src="" alt="logo-img" className=''/>
               </Link>
               <div className='block hamburger md:hidden '>
           <Hamburger color="#FFFFFF"   onToggle={handleToggle}/>
