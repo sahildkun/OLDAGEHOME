@@ -10,6 +10,7 @@ import { BrowserRouter , Routes, Route } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 import About from './About';
 import Contact from './Contact';
+import Gallery from './Gallery';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         
 
         <Route path='/about' element={<About/>}/>
+        <Route path='/gallery' element={<Gallery/>}/>
         <Route path='/contact' element={<Contact/>}/>
         
 

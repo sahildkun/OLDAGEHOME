@@ -35,7 +35,7 @@ function Navbar() {
                  hover:from-[#8b98c9] hover:to-[#8b98c9]'>HOME</button></Link>
                 <Link to='/about'><button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
                  hover:from-[#8b98c9] hover:to-[#8b98c9]'>ABOUT US</button></Link>
-                <Link to='/about'><button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
+                <Link to='/gallery'><button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
                  hover:from-[#8b98c9] hover:to-[#8b98c9]'>GALLERY</button></Link>
                 <Link to='/contact'><button className='lg:mx-1 bg-gradient-to-br lg:px-3 lg:py-2 lg:rounded-md text-white
                  hover:from-[#8b98c9] hover:to-[#8b98c9]'>CONTACT US</button></Link>

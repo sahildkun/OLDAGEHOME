@@ -7,14 +7,14 @@ function About() {
      
      <div className=' mx-5 p-5 md:mx-16 md:p-10 flex flex-col space-y-7'>
 
-      <h1 className='text-7xl font-serif text-center text-blue-800 underline' id='about'>
+      <h1 className=' text-5xl md:text-7xl font-serif font-light text-center text-blue-800 underline' id=''>
         About us
       </h1>
-      <div id='text' >
-      <p className=' text-sm md:text-2xl text-slate-700 font-semibold text-justify'>
+      <div className='font-serif ' >
+      <p className=' text-sm md:text-2xl text-slate-700 font-medium text-justify'>
         SEVA and SHELTER CHARITABLE TRUST- Living away from a loving family can be really harsh. But coping with the demands of a fast paced life is not easy in the twilight years. To find a middle way JRP and MasterPace has started a peace home for our Senior Citizens called "SEVA AND SHELTER CHARITABLE TRUST".
         </p>
-      <p className='text-sm md:text-2xl my-5 text-slate-700 font-semibold text-start'>
+      <p className='text-sm md:text-2xl my-5 text-slate-700 font-medium text-start'>
         These days many senior citizens are opting for the old "PAY & STAY" facilities to live securely and spend the rest  of their lifetime in peace and harmony. SEVA & SHELTER CHARITABLE TRUST is probably the best facility in BHUBANESWAR,ODISHA to offer older a brief stay
         </p>
         <div className='text-sm md:text-2xl font-semibold mt-10 text-center flex flex-col'>
